@@ -1,0 +1,62 @@
+.hero {
+  background-image: url('../images/hero-bg-tra.png');
+  height: 750px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #a4b7a1;
+  padding: 31.5px 10% 0;
+
+  .title {
+    margin: 120px 0px 20px;
+    max-width: 468px;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: -0.03em;
+    color: #0B3B3C;
+  }
+
+  .intro {
+    margin: 20px 0 36px;
+    max-width: 468px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B3B3C;
+  }
+
+  .btn {
+    cursor: pointer;
+    background: #7E0707;
+    padding: 15px 30px;
+    width: 156px;
+    height: 45px;
+    color: white;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  @media (max-width: 1440px) {
+    background-position: bottom;
+    background-image: url('../images/hero-bg-tra.png'), linear-gradient(90deg, rgba(164,183,161,1) 0%, rgba(158,178,150,1) 25%, rgba(157,180,152,1) 50%, rgba(157,181,154,1) 75%, rgba(154,178,151,1) 100%);
+  }
+  @media (max-width: 768px) {
+    .title {
+      margin: 80px 0px 20px;
+      font-size: 72px;
+      line-height: 72px;
+    }
+  }
+  @media (max-width: 425px) {
+    height: 600px;
+    .title {
+      margin: 40px 0px 20px;
+      font-size: 54px;
+      line-height: 54px;
+    }
+  }
+}
